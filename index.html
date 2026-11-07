@@ -72,23 +72,19 @@
             color: var(--accent-gold);
         }
 
-        /* Section 1: Responsive Grid for Trend Images */
+        /* Section 1: Viral Hook Grid */
         .trend-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
             margin-top: 30px;
-            align-items: stretch;
         }
 
         .trend-card {
             background: var(--card-bg);
             border: 1px solid var(--card-border);
             border-radius: 16px;
-            padding: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            padding: 10px;
             transition: transform 0.3s ease;
         }
 
@@ -99,11 +95,10 @@
 
         .trend-card img {
             width: 100%;
-            height: 380px;
+            height: auto;
             border-radius: 12px;
-            object-fit: contain; /* ضمان ظهور الصورة كاملاً بكل الأرقام والتفاصيل */
+            object-fit: cover;
             display: block;
-            background-color: rgba(0, 0, 0, 0.2);
         }
 
         /* Section 2 & 3: Content Cards */
