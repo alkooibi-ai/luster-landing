@@ -84,7 +84,7 @@
             background: var(--card-bg);
             border: 1px solid var(--card-border);
             border-radius: 16px;
-            padding: 15px;
+            padding: 10px;
             transition: transform 0.3s ease;
         }
 
@@ -95,9 +95,10 @@
 
         .trend-card img {
             width: 100%;
+            height: auto;
             border-radius: 12px;
             object-fit: cover;
-            aspect-ratio: 9/16;
+            display: block;
         }
 
         /* Section 2 & 3: Content Cards */
@@ -183,7 +184,6 @@
 
     <!-- Header Logo -->
     <header>
-        <!-- استبدل logo.png باسم ملف الشعار عند رفعه -->
         <img src="logo.png" alt="Luster Agency Logo" class="logo-img">
     </header>
 
@@ -197,15 +197,14 @@
             </h1>
             
             <div class="trend-grid">
-                <!-- استبدل trend1.jpg, trend2.jpg, trend3.jpg بصورك -->
                 <div class="trend-card">
-                    <img src="trend1.jpg" alt="مقطع بودكاست ضارب ترند">
+                    <img src="trend1.jpg.jpeg" alt="مقاطع بودكاست ضاربة ترند">
                 </div>
                 <div class="trend-card">
-                    <img src="trend2.jpg" alt="مقطع بودكاست ضارب ترند">
+                    <img src="trend2.jpg.jpeg" alt="مقاطع بودكاست ضاربة ترند">
                 </div>
                 <div class="trend-card">
-                    <img src="trend3.jpg" alt="مقطع بودكاست ضارب ترند">
+                    <img src="trend3.jpg.jpeg" alt="مقاطع بودكاست ضاربة ترند">
                 </div>
             </div>
         </section>
@@ -234,10 +233,8 @@
                 مقاطع حققت نتائج ممتازة مقارنة مع نمو باقي مقاطع الحساب، وعززت سلطته في المجال بشكل واضح.
             </p>
 
-            <!-- استعرض هنا الفيديوهات والصور -->
             <div class="showcase-grid">
                 <div class="showcase-card">
-                    <!-- استبدل video1.mp4 بملف الفيديو الخاص بك -->
                     <video controls poster="thumb1.jpg">
                         <source src="video1.mp4" type="video/mp4">
                     </video>
@@ -256,7 +253,6 @@
                     <small style="font-size: 1rem; color: var(--text-muted);">إن لم تشعر أن هذا المقطع يرفع مكانتك ويليق باسمك.. فلا تلتزم بشيء إطلاقاً.</small>
                 </p>
                 
-                <!-- ضع رقم الواتساب الخاص بك مكان 96800000000 -->
                 <a href="https://wa.me/96800000000?text=أهلاً%20لوستر،%20أريد%20طلب%20المقطع%20التجريبي%20المجاني" class="cta-btn" target="_blank">
                     اطلب مقطعك التجريبي الآن عبر الواتساب
                 </a>
@@ -270,4 +266,5 @@
     </footer>
 
 </body>
+</html>
 </html>
